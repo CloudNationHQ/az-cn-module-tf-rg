@@ -8,6 +8,6 @@ module "groups" {
   environment = var.environment
 
   groups = {
-    assetg = { region = "eastus" }
+    demo = { region = "westeurope" }
   }
 }
