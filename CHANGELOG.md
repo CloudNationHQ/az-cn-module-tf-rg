@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/CloudNationHQ/az-cn-module-tf-rg/compare/v0.1.0...v0.2.0) (2023-06-27)
+
+
+### Features
+
+* add linting workflow ([a9c794a](https://github.com/CloudNationHQ/az-cn-module-tf-rg/commit/a9c794a18a2eef25353bca1c59762d89dc70208c))
+
 ## 0.1.0 (2023-06-27)
 
 
