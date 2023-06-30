@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/CloudNationHQ/az-cn-module-tf-rg/compare/v0.2.0...v0.3.0) (2023-06-30)
+
+
+### Features
+
+* refactor workflows and solve linting issues ([#6](https://github.com/CloudNationHQ/az-cn-module-tf-rg/issues/6)) ([748fb37](https://github.com/CloudNationHQ/az-cn-module-tf-rg/commit/748fb3737cc71aeed72d73a287b88b4b610ea2e8))
+
 ## [0.2.0](https://github.com/CloudNationHQ/az-cn-module-tf-rg/compare/v0.1.0...v0.2.0) (2023-06-27)
 
 
