@@ -1,4 +1,6 @@
-variable "environment" {}
+variable "environment" {
+  type = string
+}
 
 variable "region" {
   type    = string
@@ -11,5 +13,6 @@ variable "suffix" {
 }
 
 variable "groups" {
+  type    = any
   default = {}
 }
