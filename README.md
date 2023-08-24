@@ -22,13 +22,15 @@ The below examples shows the usage when consuming the module:
 ## Usage: simple
 
 ```hcl
-module "groups" {
-  source = "../"
 
-  environment = var.environment
+module "groups" {
+  source = "github.com/cloudnationhq/az-cn-module-tf-rg"
 
   groups = {
-    demo = { region = "westeurope" }
+    demo = {
+      name   = module.naming.resource_group.name
+      region = "westeurope"
+    }
   }
 }
 ```
@@ -44,9 +46,6 @@ module "groups" {
 | Name | Description | Type | Required |
 | :-- | :-- | :-- | :-- |
 | `groups` | describes resource group related configuration | object | yes |
-| `region` | contains the location | string | yes |
-| `environment` | contains shortname of the environment used for naming convention | string | yes |
-| `suffix` | contains the suffix name that can be used for naming convention | string | no |
 
 ## Outputs
 

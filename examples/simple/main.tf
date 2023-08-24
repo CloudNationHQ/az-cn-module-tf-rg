@@ -2,12 +2,19 @@ provider "azurerm" {
   features {}
 }
 
-module "groups" {
-  source = "../"
+module "naming" {
+  source = "github.com/cloudnationhq/az-cn-module-tf-naming"
 
-  environment = var.environment
+  suffix = ["demo", "dev"]
+}
+
+module "rg" {
+  source = "../../"
 
   groups = {
-    demo = { region = "westeurope" }
+    demo = {
+      name   = module.naming.resource_group.name
+      region = "westeurope"
+    }
   }
 }
