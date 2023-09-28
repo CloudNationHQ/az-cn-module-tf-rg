@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/CloudNationHQ/az-cn-module-tf-rg/compare/v0.3.0...v0.4.0) (2023-09-28)
+
+
+### Features
+
+* add consistent naming ([#8](https://github.com/CloudNationHQ/az-cn-module-tf-rg/issues/8)) ([2b11244](https://github.com/CloudNationHQ/az-cn-module-tf-rg/commit/2b11244804d62879485b63af2f993cca2527cce1))
+
 ## [0.3.0](https://github.com/CloudNationHQ/az-cn-module-tf-rg/compare/v0.2.0...v0.3.0) (2023-06-30)
 
 
