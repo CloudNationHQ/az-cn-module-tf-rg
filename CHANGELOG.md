@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.5.0](https://github.com/CloudNationHQ/az-cn-module-tf-rg/compare/v0.4.0...v0.5.0) (2023-11-03)
+
+
+### Features
+
+* add management lock support at resource group level ([#10](https://github.com/CloudNationHQ/az-cn-module-tf-rg/issues/10)) ([fc047ac](https://github.com/CloudNationHQ/az-cn-module-tf-rg/commit/fc047acbc63060fb38dcb0a3656b2e1887cbe60c))
+
+
+### Bug Fixes
+
+* management lock should be fully optional ([#12](https://github.com/CloudNationHQ/az-cn-module-tf-rg/issues/12)) ([8f001d0](https://github.com/CloudNationHQ/az-cn-module-tf-rg/commit/8f001d0284771a9c9727974e9865b775a8a2c734))
+
 ## [0.4.0](https://github.com/CloudNationHQ/az-cn-module-tf-rg/compare/v0.3.0...v0.4.0) (2023-09-28)
 
 
